@@ -27,7 +27,7 @@ Most likely, the lack of Pure and First-Class Functions, and to a lesser extent 
 that limit the ability to handle more complex scenarios, are what has driven this.
 
 Therefore, a common situation we find ourselves in is looking for creative ways to approximate the functionality we're looking for when dealing with a particular use-case.   
-One of the most prevalent examples we've seen, is the embedding pseudo-functional stuff into local variables (`locals{}`), and then using those variables in the resource definitions.
+One of the most prevalent examples we've seen, is the embedding of pseudo-functional stuff into local variables (`locals{}`), and then using those variables in the resource definitions.
 
 Terraform does have some **_functional-like_** programming concepts, such as functional composition and referential transparency, and there is a need for things at least **_somewhat_** like these to exist, as they are incredibly useful in infrastructure as code.  
 These concepts are seen in functions within expressions; comprehensions; iterating over variables, or any combination of these.
