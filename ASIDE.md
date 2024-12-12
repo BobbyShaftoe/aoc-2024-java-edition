@@ -1,5 +1,5 @@
 # Aside
-One of the really nice things that languages like Rust, oCaml, R, Scala, Elixir etc. have is their functional programming features and syntax.
+One really nice thing that languages like Rust, oCaml, R, Scala, Elixir etc. have is their functional programming features and syntax.
 And while I really **_don't_** want to write ~~Rust~~, and _**might**_ have a go at playing with _oCaml_,
 I want to actually focus on languages that are closer in scope to my day job, and as such, explore the limits of functional programming in those.
 
