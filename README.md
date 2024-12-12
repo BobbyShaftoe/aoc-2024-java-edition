@@ -15,6 +15,10 @@ My idea was also to leverage Java 21+ features at every opportunity, such as the
 This is a bunch of references mostly about functional programming and using Streams API in Java 21+
 ### Java Streams
 - https://bell-sw.com/blog/a-guide-to-java-stream-api/
+- https://www.happycoders.eu/java/stream-gatherers/
+
+### Java solutions to AoC 2022
+- https://www.happycoders.eu/algorithms/advent-of-code-2022/
 
 ### Miscellaneous references and notes
 - Some window and groupby examples in Java, Python, R and Scala
