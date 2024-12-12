@@ -18,6 +18,9 @@ _This is not an exhaustive list, but are the key concepts people will generally 
 * Currying: Currying is the process of converting a function that takes multiple arguments into a series of functions that each take a single argument. This technique allows for partial application of functions and simplifies function composition.
 
 ## Here's The Thing
+
+> The following considers Terraform as the primary language, but the concepts are applicable to any declarative language.
+
 What it all comes down to, has been the trend in people desiring declarative languages to do functional things, and in a declarative language you can only do so much; especially in a true DSL.  
 This is something that has been quite evident in Terraform over the years.
 Most likely, the lack of Pure and First-Class Functions, and to a lesser extent Higher-Order Functions and possibly Recursion,
@@ -26,8 +29,8 @@ that limit the ability to handle more complex scenarios, are what has driven thi
 Therefore, a common situation we find ourselves in is looking for creative ways to approximate the functionality we're looking for when dealing with a particular use-case.   
 One of the most prevalent examples we've seen, is the embedding pseudo-functional stuff into local variables (`locals{}`), and then using those variables in the resource definitions.
 
-Terraform does have some **_functional-like_** programming concepts, such as functional composition and referential transparency that are incredibly useful in infrastructure as code.  
-These concepts are seen in functions within expressions; comprehensions; iterating over variables, and any combination of these.
+Terraform does have some **_functional-like_** programming concepts, such as functional composition and referential transparency, and there is a need for things at least **_somewhat_** like these to exist, as they are incredibly useful in infrastructure as code.  
+These concepts are seen in functions within expressions; comprehensions; iterating over variables, or any combination of these.
 
 Terraform does also exhibit other functional programming concepts like immutability, pure functions and possibly recursion, but these tend to exist only as varying degrees of abstraction or as pseudo-functionality built in to the core language.   
 These concepts are evident in the way Terraform manages state and handles resource management, data sources, and the ability to define modules.
@@ -39,7 +42,7 @@ These concepts are evident in the way Terraform manages state and handles resour
 4. **Custom Logic and Abstractions**: First-class functions and higher-order functions would allow users to define custom logic and abstractions, making it easier to encapsulate and reuse complex infrastructure patterns.
 5. **Enhanced Error Handling**: Functional programming concepts like monads could improve error handling and recovery, making it easier to manage and propagate errors in a controlled manner.
 
-> NOTE: The above examples are purely hypothetical and may not be feasible or practical in the context of Terraform. They are intended to illustrate the potential benefits of functional programming concepts in infrastructure as code.
+> NOTE: The above examples are purely hypothetical and may not be feasible or practical in the context of Terraform. They are intended to illustrate the potential benefits of functional programming concepts in the _infrastructure as code_ domain.
 
 ## The Plan
 I want to deeply explore functional programming in a few languages; and by proxy or indirectly one might say, comprehensively understand the limits of what can be achieved with a declarative language for infrastructure as code; **Terraform** and **OPA (Rego)** in particular.  

@@ -39,14 +39,15 @@ D:\Lib\jdk-23.0.1\bin\java.exe --enable-preview
 ```
 
 
-### Day 1: Historian Hysteria
+### Day 1: Historian Hysteria - Part 1
 [https://adventofcode.com/2024/day/1](https://adventofcode.com/2024/day/1)
 ```Bash
   Day 1: Historian Hysteria  
   The answer is total distance = 1579939
 ```
-![Day1Success](src/main/resources/static/aoc-day-1-success.PNG)
+
+<img height="45%" src="src/main/resources/static/aoc-day-1-success.PNG" width="45%"/>
 
 
+### Day 1: Historian Hysteria - Part 2
 
-### Day 2: Password Philosophy
