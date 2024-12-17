@@ -107,7 +107,7 @@ public class Day1 {
                 .sum();
 
         if (Config.DEBUG) {
-            System.out.printf("differences: %s\n", countOccurrences(dataList[0], dataList[1]));
+            System.out.printf("occurrences: %s\n", countOccurrences(dataList[0], dataList[1]));
             System.out.printf("sum: %d\n", sum);
         }
 
