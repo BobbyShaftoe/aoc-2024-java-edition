@@ -11,9 +11,12 @@ import org.nickb.aoc.Day2;
 void main() throws RuntimeException {
     System.out.print("\n***************************\n*** Advent of Code 2024 ***\n***************************\n");
 
-    Day1 aocDay1 = new Day1();
-    int aoc_day1_result = aocDay1.HistorianHysteria("src/main/resources/day1.txt");
-    System.out.printf("  The answer is total distance = %d\n", aoc_day1_result);
+    Day1 aocDay1 = new Day1("src/main/resources/day1.txt");
+    int aoc_day1_part1_result = aocDay1.HistorianHysteriaPart1();
+    System.out.printf("  The answer is total distance = %d\n", aoc_day1_part1_result);
+
+    int aoc_day1_part2_result = aocDay1.HistorianHysteriaPart2();
+    System.out.printf("  The answer is total similarity score = %d\n", aoc_day1_part2_result);
 }
 
 

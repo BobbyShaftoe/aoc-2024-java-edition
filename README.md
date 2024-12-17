@@ -14,6 +14,8 @@ My idea was also to leverage Java 21+ features at every opportunity, such as the
 ## References
 This is a bunch of references mostly about functional programming and using Streams API in Java 21+
 ### Java Streams
+- https://medium.com/javarevisited/whats-new-with-java-23-698762aa44d1
+- https://stackify.com/streams-guide-java-8/
 - https://bell-sw.com/blog/a-guide-to-java-stream-api/
 - https://www.happycoders.eu/java/stream-gatherers/
 
@@ -46,12 +48,17 @@ D:\Lib\jdk-23.0.1\bin\java.exe --enable-preview
 ### Day 1: Historian Hysteria - Part 1
 [https://adventofcode.com/2024/day/1](https://adventofcode.com/2024/day/1)
 ```Bash
-  Day 1: Historian Hysteria  
+  Day 1 (part 1): Historian Hysteria  
   The answer is total distance = 1579939
 ```
 
-<img height="45%" src="src/main/resources/static/aoc-day-1-success.PNG" width="45%"/>
+<img height="45%" src="src/main/resources/static/aoc-day-1-part-1-success.PNG" width="45%"/>
 
 
 ### Day 1: Historian Hysteria - Part 2
+```Bash
+  Day 1 (part 2): Historian Hysteria  
+  The answer is total similarity score = 20351745
+```
 
+<img height="45%" src="src/main/resources/static/aoc-day-1-part-2-success.PNG" width="45%"/>
