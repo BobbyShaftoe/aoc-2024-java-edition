@@ -1,5 +1,6 @@
 import org.nickb.aoc.Day1;
 import org.nickb.aoc.Day2;
+import org.nickb.aoc.Day3;
 
 /**
  * Instead of bowing to pressure from the community and providing these functions, the JDK developers had a better idea...
@@ -24,6 +25,15 @@ void main() throws RuntimeException {
 
     int aocDay2Part2Result = aocDay2.RedNosedReportsPart2();
     System.out.printf("  The answer is total adjusted safe reports = %d\n", aocDay2Part2Result);
+
+    Day3 aocDay3 = new Day3("src/main/resources/day3.txt");
+    int aocDay3Part1Result = aocDay3.MullItOverPart1();
+    System.out.printf("  The answer is total sum of multiplications = %d\n", aocDay3Part1Result);
+
+    int aocDay3Part2Result = aocDay3.MullItOverPart2();
+    System.out.printf("  The answer is total sum of enabled multiplications = %d\n", aocDay3Part2Result);
+
+
 }
 
 

@@ -85,6 +85,25 @@ D:\Lib\jdk-23.0.1\bin\java.exe --enable-preview
 <img height="45%" src="src/main/resources/static/aoc-day-2-part-2-success.PNG" width="45%"/>
 
 
+---
+
+### Day 3: Mull It Over - Part 1
+[https://adventofcode.com/2024/day/3](https://adventofcode.com/2024/day/3)
+```Bash
+  Day 3 (part 1): Mull It Over
+  The answer is total sum of multiplications = 169021493
+```
+
+<img height="45%" src="src/main/resources/static/aoc-day-3-part-1-success.PNG" width="45%"/>
+
+
+### Day 3: Mull It Over - Part 2
+```Bash
+  Day 3 (part 2): Mull It Over
+  The answer is = 0
+```
+
+
 
 
 
