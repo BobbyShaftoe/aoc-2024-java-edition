@@ -12,6 +12,8 @@ import org.nickb.util.Config;
 
 public class Day1 {
 
+    private final Boolean DEBUG_LOCAL = false;
+
     String fileData;
     int[][] dataList = new int[2][];
 
@@ -85,7 +87,7 @@ public class Day1 {
                 .mapToInt(Integer::intValue)
                 .sum();
 
-        if (Config.DEBUG) {
+        if (Config.DEBUG || DEBUG_LOCAL) {
             System.out.printf("differences: %s\n", calculateDifferences(dataList[0], dataList[1]));
             System.out.printf("sum: %d\n", sum);
         }
@@ -106,7 +108,7 @@ public class Day1 {
                 .mapToInt(entry -> entry.getKey() * entry.getValue())
                 .sum();
 
-        if (Config.DEBUG) {
+        if (Config.DEBUG || DEBUG_LOCAL) {
             System.out.printf("occurrences: %s\n", countOccurrences(dataList[0], dataList[1]));
             System.out.printf("sum: %d\n", sum);
         }

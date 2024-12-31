@@ -62,3 +62,24 @@ D:\Lib\jdk-23.0.1\bin\java.exe --enable-preview
 ```
 
 <img height="45%" src="src/main/resources/static/aoc-day-1-part-2-success.PNG" width="45%"/>
+
+---
+
+### Day 2: Red-Nosed Reports - Part 1
+[https://adventofcode.com/2024/day/2](https://adventofcode.com/2024/day/2)
+```Bash
+  Day 2 (part 1): Red-Nosed Reports
+  The answer is total safe reports = 356
+```
+
+<img height="45%" src="src/main/resources/static/aoc-day-2-part-1-success.PNG" width="45%"/>
+
+
+### Day 2: Red-Nosed Reports - Part 2
+```Bash
+  Day 2 (part 2): Red-Nosed Reports
+  The answer is total adjusted safe reports = 413
+```
+
+<img height="45%" src="src/main/resources/static/aoc-day-2-part-2-success.PNG" width="45%"/>
+

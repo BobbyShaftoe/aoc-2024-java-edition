@@ -12,11 +12,18 @@ void main() throws RuntimeException {
     System.out.print("\n***************************\n*** Advent of Code 2024 ***\n***************************\n");
 
     Day1 aocDay1 = new Day1("src/main/resources/day1.txt");
-    int aoc_day1_part1_result = aocDay1.HistorianHysteriaPart1();
-    System.out.printf("  The answer is total distance = %d\n", aoc_day1_part1_result);
+    int aocDay1Part1Result = aocDay1.HistorianHysteriaPart1();
+    System.out.printf("  The answer is total distance = %d\n", aocDay1Part1Result);
 
-    int aoc_day1_part2_result = aocDay1.HistorianHysteriaPart2();
-    System.out.printf("  The answer is total similarity score = %d\n", aoc_day1_part2_result);
+    int aocDay1Part2Result = aocDay1.HistorianHysteriaPart2();
+    System.out.printf("  The answer is total similarity score = %d\n", aocDay1Part2Result);
+
+    Day2 aocDay2 = new Day2("src/main/resources/day2.txt");
+    int aocDay2Part1Result = aocDay2.RedNosedReportsPart1();
+    System.out.printf("  The answer is total safe reports = %d\n", aocDay2Part1Result);
+
+    int aocDay2Part2Result = aocDay2.RedNosedReportsPart2();
+    System.out.printf("  The answer is total adjusted safe reports = %d\n", aocDay2Part2Result);
 }
 
 
