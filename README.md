@@ -10,6 +10,8 @@
     * [Day 1: Historian Hysteria - Part 2](#day-1-historian-hysteria---part-2)
     * [Day 2: Red-Nosed Reports - Part 1](#day-2-red-nosed-reports---part-1)
     * [Day 2: Red-Nosed Reports - Part 2](#day-2-red-nosed-reports---part-2)
+    * [Day 3: Mull It Over - Part 1](#day-3-mull-it-over---part-1)
+    * [Day 3: Mull It Over - Part 2](#day-3-mull-it-over---part-2)
   * [References](#references)
     * [Java Streams](#java-streams)
     * [Java solutions to AoC 2022](#java-solutions-to-aoc-2022)
