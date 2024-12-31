@@ -135,18 +135,13 @@ public class Day2 {
     public int RedNosedReportsPart2() {
         System.out.print("\n  Day 2 (part 2): Red-Nosed Reports\n");
 
-        // reduce() operation here is essentially the same as sum().
-        // Also, we could just use the count() method to return a Long, instead of mapToInt() and reduce()
-        // Reduction operations are better for parallel streams, and may come in handy later.
+        // It's nice that we can use a predefined method here as the stream source within any map() method
+        // This removes the need to predefine a variable, within the scope of a lambda operation.
         int sum = dataList.stream()
-                .mapToInt(x -> {
-                            List<List<Integer>> permutations = generatePermutations(x);
-                            return permutations.stream()
-                                    .filter(Day2::isIncreasingOrDecreasing)
-                                    .anyMatch(Day2::isNumberDifferenceOk) ? 1 : 0;
-                        }
-                )
-                .reduce(0, Integer::sum);
+                .mapToInt(x -> generatePermutations(x).stream()
+                        .filter(Day2::isIncreasingOrDecreasing)
+                        .anyMatch(Day2::isNumberDifferenceOk) ? 1 : 0)
+                .sum();
 
         if (Config.DEBUG || DEBUG_LOCAL) {
             System.out.println(dataList.stream().map(Day2::generatePermutations).collect(Collectors.toList()));
