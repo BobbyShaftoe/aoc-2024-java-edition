@@ -136,7 +136,8 @@ public class Day2 {
         System.out.print("\n  Day 2 (part 2): Red-Nosed Reports\n");
 
         // It's nice that we can use a predefined method here as the stream source within any map() method
-        // This removes the need to predefine a variable, within the scope of a lambda operation.
+        // This removes the need to predefine a variable, within the scope of a lambda operation,
+        // and therefore also removes the need to use a closure within the mapToInt() method.
         int sum = dataList.stream()
                 .mapToInt(x -> generatePermutations(x).stream()
                         .filter(Day2::isIncreasingOrDecreasing)
