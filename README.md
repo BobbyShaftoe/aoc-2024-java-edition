@@ -102,8 +102,10 @@ D:\Lib\jdk-23.0.1\bin\java.exe --enable-preview
 ### Day 3: Mull It Over - Part 2
 ```Bash
   Day 3 (part 2): Mull It Over
-  The answer is = 0
+  The answer is total sum of enabled multiplications = 111762583
 ```
+
+<img height="45%" src="src/main/resources/static/aoc-day-3-part-2-success.PNG" width="45%"/>
 
 
 
